@@ -1,13 +1,13 @@
 # Linear Algebra Project Report: Topic PPCA
 * This report is about the studies of PPCA. The report file is "Report_Linear- PPCA.pdf". There also is a application code file in this repository
 
-#### Group nembers:
+### Group nembers:
 * Trần Trung Việt
 * Lê Hoài Nam
 * Huỳnh Hữu Nhật
 * Huỳnh Hoàng Trung Nghĩa
 
-#### Instructor
+### Instructor
 * Dr. Nguyễn Phúc Sơn
 
 
