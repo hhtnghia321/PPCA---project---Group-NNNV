@@ -12,9 +12,7 @@
 
 
 ## Introduction 
-Principal component analysis (PCA) (Jolliffe 1986) is an extremely popular technique to reduce dimension in multivariate analysis. The most common definition of PCA, introduced by Hotelling (1933),  for a set of observed $d$-dimensional data vectors $\(\textbf{t}_{n}\)$, n \in $\(1...N\)$, the $q$ principal axes $\textbf{w}_j , j \in \{1...q\}$, are those orthonormal axes onto which the retained variance under projection is maximal. One limiting disadvantage of these definitions of PCA is the absence of an associated probability density or generative model. Deriving PCA from the perspective of density estimation would offer a number of important advantages including the following: katex.render("c = \\pm\\sqrt{a^2 + b^2}", element, {
-    throwOnError: false
-})
+Principal component analysis (PCA) (Jolliffe 1986) is an extremely popular technique to reduce dimension in multivariate analysis. The most common definition of PCA, introduced by Hotelling (1933),  for a set of observed $d$-dimensional data vectors $\(\textbf{t}_{n}\)$, n \in $\(1...N\)$, the $q$ principal axes $\textbf{w}_j , j \in \{1...q\}$, are those orthonormal axes onto which the retained variance under projection is maximal. One limiting disadvantage of these definitions of PCA is the absence of an associated probability density or generative model. Deriving PCA from the perspective of density estimation would offer a number of important advantages including the following:<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 * The corresponding likelihood would permit comparison with other density-estimation techniques and facilitate statistical testing.
 * Bayesian inference methods could be applied by combining the likelihood with a prior.
