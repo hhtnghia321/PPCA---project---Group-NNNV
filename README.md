@@ -1,4 +1,5 @@
 # Linear Algebra Project Report: Topic PPCA
+* This report is about the studies of PPCA. The report file is "Report_Linear- PPCA.pdf"
 
 #### Group nembers:
 * Trần Trung Việt
@@ -8,7 +9,10 @@
 
 
 ## Introduction 
-Principal component analysis (PCA) (Jolliffe 1986) is an extremely popular technique to reduce dimension in multivariate analysis. The most common definition of PCA, introduced by Hotelling (1933),  for a set of observed $d$-dimensional data vectors $\(\textbf{t}_{n}\)$, n \in $\(1...N\)$, the $q$ principal axes $\textbf{w}_j , j \in \{1...q\}$, are those orthonormal axes onto which the retained variance under projection is maximal. One limiting disadvantage of these definitions of PCA is the absence of an associated probability density or generative model. Deriving PCA from the perspective of density estimation would offer a number of important advantages including the following: h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+Principal component analysis (PCA) (Jolliffe 1986) is an extremely popular technique to reduce dimension in multivariate analysis. The most common definition of PCA, introduced by Hotelling (1933),  for a set of observed $d$-dimensional data vectors $\(\textbf{t}_{n}\)$, n \in $\(1...N\)$, the $q$ principal axes $\textbf{w}_j , j \in \{1...q\}$, are those orthonormal axes onto which the retained variance under projection is maximal. One limiting disadvantage of these definitions of PCA is the absence of an associated probability density or generative model. Deriving PCA from the perspective of density estimation would offer a number of important advantages including the following: 
+```math
+SE = \frac{\sigma}{\sqrt{n}}
+```
 
 * The corresponding likelihood would permit comparison with other density-estimation techniques and facilitate statistical testing.
 * Bayesian inference methods could be applied by combining the likelihood with a prior.
