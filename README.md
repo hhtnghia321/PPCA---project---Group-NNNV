@@ -1,13 +1,13 @@
 # Linear Algebra Project Report: Topic PPCA
 
-####Group nembers:
+#### Group nembers:
 * Trần Trung Việt
 * Lê Hoài Nam
 * Huỳnh Hữu Nhật
 * Huỳnh Hoàng Trung Nghĩa
 
 
-##Introduction 
+## Introduction 
 Principal component analysis (PCA) (Jolliffe 1986) is an extremely popular technique to reduce dimension in multivariate analysis. The most common definition of PCA, introduced by Hotelling (1933),  for a set of observed $d$-dimensional data vectors $\{\textbf{t}_n\}, n \in \{1...N\}$, the $q$ principal axes $\textbf{w}_j , j \in \{1...q\}$, are those orthonormal axes onto which the retained variance under projection is maximal. One limiting disadvantage of these definitions of PCA is the absence of an associated probability density or generative model. Deriving PCA from the perspective of density estimation would offer a number of important advantages including the following:
 
 \begin{itemize}
